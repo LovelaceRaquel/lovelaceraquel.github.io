@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Redefinição de Senha</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="java_script.js"></script>
+</head>
+<body>
+
+  <div class="container">
+      <img src="logo.png" alt="Logo" class="logo">
+
+  <div id="login-container">
+
+    <h1>Redefinir Senha</h1>
+
+    <div id="reset-form">
+        <form>
+            <label for="email">Email:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button id="botao" type="button" onclick="resetPassword()">Redefinir Senha</button>
+
+        </form>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup" onclick="hidePopup()">&times;</span>
+            <p>O link para redefinição de senha foi enviado para o email informado.</p>
+        </div>
+    </div>
+</body>
+</html>
